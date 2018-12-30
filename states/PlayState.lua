@@ -111,6 +111,7 @@ function PlayState:render()
 
 	if self.show then
 		love.graphics.print("Press SpaceBar or Left Click to jump", 8, 34)
+		love.graphics.print("Press p to pause",8,56)
 	end
 
 	self.bird:render()
